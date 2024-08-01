@@ -1,0 +1,80 @@
+.card {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.meallist-img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 1rem 3rem 2rem 2rem;
+}
+.card-content h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-top: 0.7rem;
+}
+
+.card-content p {
+  padding: 2rem 0 0 0;
+  color: #ec4899;
+  font-weight: 500;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.ing-name {
+  margin-left: 0.5rem;
+}
+
+/* .btn-info-container {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+} */
+
+.btn-info-container {
+  margin-top: 1rem;
+  /* padding: 0.5rem; */
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 0.8fr);
+
+  gap: 1rem;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.btn-info-container button {
+  flex: 1 1 auto;
+  min-width: 100px;
+}
+
+.btn-missed {
+  padding: 1rem o;
+  font-size: 0.8rem;
+}
+
+.missed-con {
+  background: lightgray;
+  color: black;
+  opacity: 0.9;
+  padding: 0.5rem;
+  border-radius: 1.3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @media (max-width: 1531px) {
+  .btn-info-container {
+    padding: 0 2rem;
+  }
+} */

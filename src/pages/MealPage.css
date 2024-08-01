@@ -3,6 +3,14 @@
   width: 100%;
 }
 
+.mp-home {
+  height: 100vh;
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
 .meal-img {
   width: 100%;
   height: 100%;
@@ -16,4 +24,34 @@
 
 .pt-three {
   padding-top: 3rem;
+}
+
+.ingredients-container {
+  margin-top: 3rem;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-container > div {
+  width: 100%;
+}
+
+.fetch-btn-container {
+  margin-top: 8rem;
+}
+
+.w-full {
+  width: 70%;
+}
+
+.mr-2 {
+  margin-left: 2rem;
+}
+
+.meal-txt {
+  font-size: 1.1rem;
 }

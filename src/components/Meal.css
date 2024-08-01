@@ -1,0 +1,44 @@
+.mp-home {
+  height: 100%;
+  width: 100%;
+}
+
+.try {
+  font-family: "Joti One", serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.5rem 0 0 0;
+}
+
+.meal-grid-container {
+  padding-bottom: 7rem;
+  max-width: 95rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.mp-hero-text {
+  padding: 0 auto;
+}
+
+@media (max-width: 1531px) {
+  .mp-home {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 1305px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .mp-home {
+    padding: 0 1rem;
+  }
+}
