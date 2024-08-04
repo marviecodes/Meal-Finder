@@ -7,7 +7,8 @@ const MealList = ({ meal }) => {
       <img src={meal.image} alt="meal" className="meallist-img" />
       <div className="card-content">
         <h5>{meal.title}</h5>
-        <p className="text-center">Additional ingredients</p>
+
+        <p>Additional ingredients</p>
 
         <div className="btn-info-container">
           {meal.missedIngredients.map((ing) => (

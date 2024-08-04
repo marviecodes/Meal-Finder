@@ -1,4 +1,4 @@
-import gif from "../assets/chopsticks-834_256.gif";
+import gif from "../assets/my-fuzzy.gif";
 import "./Gif.css";
 
 const Gif = () => {

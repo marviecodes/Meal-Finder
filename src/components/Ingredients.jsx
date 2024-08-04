@@ -8,7 +8,7 @@ const Ingredients = ({ recipe }) => {
   return (
     <div className="grid-container">
       <div>
-        <button className="color-bl-b-gr">
+        <button>
           <span className="span-text">{recipe.ingredient}</span>
         </button>
         <span

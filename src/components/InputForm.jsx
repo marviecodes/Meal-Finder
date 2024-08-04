@@ -9,11 +9,15 @@ const InputForm = () => {
   const { handleAddRecipes } = useContext(MealContext);
 
   const id = uuidv4();
+
   const handleChange = (e) => {
     e.preventDefault();
-    const newIngObj = { ingredient, id };
-    handleAddRecipes(newIngObj);
-    setIngredient("");
+
+    if (ingredient !== "") {
+      const newIngObj = { ingredient, id };
+      handleAddRecipes(newIngObj);
+      setIngredient("");
+    }
   };
 
   return (

@@ -6,15 +6,18 @@
 }
 
 .meallist-img {
-  width: 100%;
+  /* width: 100%; */
+  object-fit: contain;
+  height: 25rem;
 }
 
 .card-content {
   padding: 1rem 3rem 2rem 2rem;
 }
 .card-content h5 {
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-family: "Joti One", serif;
+  font-weight: 400;
+  font-size: 1.4rem;
   padding-top: 0.7rem;
 }
 

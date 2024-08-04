@@ -18,6 +18,8 @@
 }
 
 .mp-hero-text {
+  font-family: "Joti One", serif;
+  font-size: 2rem;
   padding: 0 auto;
 }
 
@@ -25,11 +27,19 @@
   .mp-home {
     padding: 0 4rem;
   }
+
+  .meal-grid-container {
+    padding-top: 4rem;
+  }
 }
 
 @media (max-width: 1305px) {
   .grid-cols-3 {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .meal-grid-container {
+    padding-top: 4rem;
   }
 }
 
@@ -40,5 +50,22 @@
 
   .mp-home {
     padding: 0 1rem;
+  }
+
+  .pt-three {
+    padding: 3rem 1rem;
+  }
+
+  .meal-grid-container {
+    padding-top: 4rem;
+  }
+
+  .mp-hero-text {
+    font-size: 1.8rem;
+  }
+
+  .try {
+    padding-top: 2rem;
+    font-size: 1.62rem;
   }
 }

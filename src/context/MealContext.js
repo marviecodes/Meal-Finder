@@ -23,7 +23,7 @@ export const MealProvider = ({ children }) => {
   };
 
   const APIKEY = `5b763d96681e4afe85e042795c82fd62`;
-  const num = 10;
+  const num = 30;
   //   Get Meals
   const getMeals = async () => {
     try {

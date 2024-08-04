@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  /* scrollbar-width: none; */
 }
 
 .home {
@@ -104,7 +105,7 @@ button:hover {
   }
 
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   .hero-text {

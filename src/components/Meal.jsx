@@ -31,7 +31,7 @@ const Meal = () => {
         <h1 className="mp-hero-text text-center">
           Here are some awesome suggestions
         </h1>
-        <p className="try text-center">Try these awesome delicacies out</p>
+        {/* <p className="try text-center">Try these awesome delicacies out</p> */}
         <div className="meal-grid-container grid grid-cols-3">
           {meals.map((meal) => (
             <MealList meal={meal} />
