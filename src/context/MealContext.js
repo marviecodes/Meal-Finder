@@ -30,7 +30,6 @@ export const MealProvider = ({ children }) => {
         `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${queryString}&number=${num}&apiKey=${APIKEY}`
       );
       const data = await res.json();
-      console.log(data);
       setMeals(data);
     } catch (err) {
       console.error(err);

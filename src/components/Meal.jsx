@@ -14,6 +14,7 @@ const Meal = () => {
       setLoading(false);
     }, 2000);
     getMeals();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (loading) return <Spinner />;
