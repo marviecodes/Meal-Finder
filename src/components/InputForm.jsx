@@ -22,7 +22,6 @@ const InputForm = () => {
 
   return (
     <form onSubmit={handleChange}>
-      <h2></h2>
       <div className="input-group">
         <input
           type="text"

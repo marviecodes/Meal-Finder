@@ -8,7 +8,6 @@ export const MealProvider = ({ children }) => {
 
   const final_recipes = recipes.map((recipe) => recipe.ingredient);
   const queryString = `${final_recipes.join(",+")}`;
-  console.log(queryString);
 
   const handleAddRecipes = (recipe) => {
     setRecipes([recipe, ...recipes]);
