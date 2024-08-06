@@ -10,6 +10,12 @@
   padding: 0.5rem 0 0 0;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .meal-grid-container {
   padding-bottom: 7rem;
   max-width: 95rem;
@@ -57,7 +63,7 @@
   }
 
   .meal-grid-container {
-    padding-top: 4rem;
+    padding: 4rem 1rem;
   }
 
   .mp-hero-text {

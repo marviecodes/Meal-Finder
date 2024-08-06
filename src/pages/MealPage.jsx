@@ -20,7 +20,7 @@ const MealPage = () => {
   if (loading) return <Spinner />;
 
   return (
-    <div className="mp-container">
+    <section className="mp-container">
       <div className="img-div">
         <img
           src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -51,7 +51,7 @@ const MealPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

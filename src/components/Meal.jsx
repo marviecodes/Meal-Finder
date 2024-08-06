@@ -6,7 +6,7 @@ import MealList from "./MealList";
 import Spinner from "../shared/Spinner";
 
 const Meal = () => {
-  const { getMeals, meals } = useContext(MealContext);
+  const { getMeals, meals, recipes } = useContext(MealContext);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -18,6 +18,7 @@ const Meal = () => {
   }, []);
 
   if (loading) return <Spinner />;
+
   return (
     <div className="mp-container">
       <div className="img-div">
@@ -32,8 +33,14 @@ const Meal = () => {
         <h1 className="mp-hero-text text-center">
           Here are some awesome suggestions
         </h1>
-        {/* <p className="try text-center">Try these awesome delicacies out</p> */}
-        <div className="meal-grid-container grid grid-cols-3">
+        <div
+          className={`meal-grid-container grid grid-cols-3 ${
+            recipes.length === 0 ? "center" : ""
+          }`}
+        >
+          {recipes.length === 0 && (
+            <p>Something went wrong while fetching. Please Try again</p>
+          )}
           {meals.map((meal) => (
             <MealList meal={meal} />
           ))}
